@@ -19,12 +19,16 @@ header {
   flex-wrap: wrap;
   z-index: 1;
   background-color: black;
+  justify-content: space-between;
 }
 
 .title-image {
   height: 50px;
   padding-left: 10px;
-  margin-right: 62%;
+}
+
+h2 {
+  display: block;
 }
 
 nav a {
@@ -45,21 +49,21 @@ nav a {
 
 .title-one {
   background-color: black;
-  width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 
 .title-two {
   text-align: center;
 }
 
-.tea-month {
+#store {
   width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 700px;
   margin: auto;
-  padding-top: 70px;
 }
 
 .photos {
@@ -92,6 +96,51 @@ nav a {
   padding-top: 20px;
 }
 
-.item {
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
 
+.stores {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 40px;
+}
+
+.stores span {
+  padding: 20px;
+}
+
+.all-stores {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  margin: auto;
+}
+
+.contact-info {
+  display: block;
+  text-align: center;
+}
+
+footer {
+  margin-left: 20px;
+}
+
+div {
+  display: block;
+}
+
+.locations h2 {
+  margin: 0;
 }
