@@ -27,10 +27,6 @@ header {
   padding-left: 10px;
 }
 
-h2 {
-  display: block;
-}
-
 nav a {
   padding: 10px;
   color: seashell;
@@ -72,7 +68,6 @@ nav a {
   width: 300px;
   height: 200px;
   display: block;
-  padding: 0px 20px 10px 20px;
 }
 
 .caption {
@@ -82,20 +77,10 @@ nav a {
 
 .tea-images {
   display: flex;
-  flex-direction: column;
-}
-
-.row-one {
-  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 1200px;
   justify-content: center;
-}
-
-.row-two {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 20px;
 }
 
 #locations {
@@ -116,7 +101,7 @@ nav a {
   width: 300px;
   height: 300px;
   text-align: center;
-  margin: 15px 40px 0px 40px;
+  margin: 15px 40px 15px 40px;
   justify-content: center;
 }
 
@@ -139,14 +124,19 @@ footer {
   margin-left: 20px;
 }
 
-div {
-  display: block;
-}
-
 #locations h2 {
   margin: 0px;
 }
 
 h3 {
   margin: 20px;
+}
+
+figure {
+  text-align: center;
+  margin: 20px;
+}
+
+figcaption {
+  margin-top: 10px;
 }
